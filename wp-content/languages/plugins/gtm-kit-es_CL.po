@@ -1,0 +1,328 @@
+# Translation of Plugins - GTM Kit &#8211; Google Tag Manager &amp; GA4 integration - Stable (latest release) in Spanish (Chile)
+# This file is distributed under the same license as the Plugins - GTM Kit &#8211; Google Tag Manager &amp; GA4 integration - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-04-12 20:07:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es_CL\n"
+"Project-Id-Version: Plugins - GTM Kit &#8211; Google Tag Manager &amp; GA4 integration - Stable (latest release)\n"
+
+#: src/Admin/Suggestions.php:496
+msgid "Logging and debugging:"
+msgstr "Registro y depuración:"
+
+#: src/Admin/Suggestions.php:485
+msgid "The debug log for \"purchase\" events is active."
+msgstr "El registro de depuración de eventos de “purchase” está activo."
+
+#: src/Admin/Suggestions.php:481
+msgid "The browser console log is active."
+msgstr "El registro de la consola del navegador está activo."
+
+#: src/Admin/Suggestions.php:478
+msgid "Debug logging should not be active in production environments longer than necessary as it affects performance."
+msgstr "El registro de depuración no debe estar activo en entornos de producción durante más tiempo del necesario, ya que afecta el rendimiento."
+
+#: src/Admin/Suggestions.php:462
+msgid "GTM Container Injection:"
+msgstr "Inyección del contenedor de GTM:"
+
+#: src/Admin/Suggestions.php:451
+msgid "The \"GTM Container ID\" value is empty."
+msgstr "El valor del “ID del contenedor de GTM” está vacío."
+
+#: src/Admin/Suggestions.php:447
+msgid "The \"Inject Container Code\" option is not enabled."
+msgstr "La opción “Inyectar código del contenedor” no está activada."
+
+#: src/Admin/Suggestions.php:444
+msgid "The Google Tag Manager container is not injected."
+msgstr "El contenedor de Google Tag Manager no ha sido inyectado."
+
+#: src/Admin/Suggestions.php:429
+msgid "Automatic Updates:"
+msgstr "Actualizaciones automáticas:"
+
+#: src/Admin/Suggestions.php:423 src/Admin/Suggestions.php:456
+#: src/Admin/Suggestions.php:490
+msgid "Go to settings"
+msgstr "Ir a los ajustes"
+
+#: src/Admin/Suggestions.php:419 assets/admin/settings.js:1
+#: assets/admin/wizard.js:1
+msgid "New releases of GTM Kit may contain important updates to comply with changes in Google Tag Manager or analytics in general. We recommend enabling automatic plugin updates for GTM Kit to ensure it is always up to date."
+msgstr "Las nuevas versiones de GTM Kit pueden contener actualizaciones importantes para adaptarse a los cambios en Google Tag Manager o Analytics en general. Recomendamos habilitar las actualizaciones automáticas de GTM Kit para garantizar que esté siempre actualizado."
+
+#: src/Admin/UpgradesOptionsPage.php:133
+msgid "The plugin is installed and activated"
+msgstr "El plugin ha sido instalado y activado"
+
+#: src/Admin/UpgradesOptionsPage.php:59 src/Admin/UpgradesOptionsPage.php:68
+#: assets/admin/settings.js:22
+msgid "Upgrades"
+msgstr "Actualizaciones"
+
+#: src/Admin/Suggestions.php:405
+msgid "Breaking change:"
+msgstr "Cambio radical:"
+
+#. translators: %1$s and %2$s are links with the text 'GTM Kit Woo Add-On' and
+#. 'Grandfathered Wishlist Functionality' respectively.
+#: src/Admin/Suggestions.php:397
+msgid "Starting with GTM Kit version 2.0, the add_to_wishlist event is no longer supported in the free version of GTM Kit. To continue tracking the add_to_wishlist event, you must either purchase the %1$s or download the free %2$s plugin."
+msgstr "A partir de la versión 2.0 de GTM Kit, el evento “add_to_wishlist” ya no es compatible con la versión gratuita de GTM Kit. Para continuar con el seguimiento del evento “add_to_wishlist”, debes comprar el plugin %1$s o descargar el plugin gratuito %2$s."
+
+#: src/Admin/Suggestions.php:376
+msgid "Possible Conflict:"
+msgstr "Posible conflicto:"
+
+#. translators: %s is the name of the plugin.
+#: src/Admin/Suggestions.php:368
+msgid "It seems that you have installed the Google Tag Manager plugin called %1$s. Running two different GTM plugins simultaneously can lead to unexpected results, significantly impact data accuracy, and slow down page speed. Please consider deactivating %2$s unless you have carefully considered and addressed the potential challenges."
+msgstr "Parece que has instalado el plugin de Google Tag Manager %1$s. Ejecutar dos plugins diferentes de GTM simultáneamente puede provocar resultados inesperados, afectar significativamente a la precisión de los datos y reducir la velocidad de la página. Considera desactivar %2$s a menos que hayas evaluado cuidadosamente las consecuencias."
+
+#: src/Admin/Suggestions.php:350
+msgid "Plugin suggestion:"
+msgstr "Sugerencia de plugin:"
+
+#: src/Admin/Suggestions.php:345
+msgid "It appears that you are not currently using a supported SEO plugin. By installing either WordPress SEO or Rank Math, you can assign a primary category to each product. This primary category will then be used in the data layer if the product is associated with multiple categories."
+msgstr "Parece que actualmente no estás usando un plugin de SEO compatible. Si instalas WordPress SEO o Rank Math, puedes asignar una categoría principal a cada producto. Esta categoría principal se utilizará en la capa de datos si el producto está asociado a varias categorías."
+
+#: src/Admin/Suggestions.php:332
+msgid "Upgrade:"
+msgstr "Actualizar:"
+
+#. translators: %1$s is a link with the text 'GTM Kit Woo Add-On'.
+#: src/Admin/Suggestions.php:325
+msgid "With the %1$s, you can track the add_to_wishlist event and leverage server-side tracking for enhanced accuracy and deeper insights into customer behavior."
+msgstr "Con %1$s puedes rastrear el evento “add_to_wishlist” y aprovechar el seguimiento Server-side para lograr una mayor precisión y conocimientos más profundos sobre el comportamiento del cliente."
+
+#. translators: %1$s is the name of the theme.
+#: src/Admin/Suggestions.php:315
+msgid "It seems that you have installed the %1$s theme."
+msgstr "Parece que has instalado el tema %1$s."
+
+#. translators: %1$s is the name of the plugin.
+#: src/Admin/Suggestions.php:308
+msgid "It seems that you have installed the %1$s plugin."
+msgstr "Parece que has instalado el plugin %1$s."
+
+#. translators: %1$s is the name of the plugin and %2$s is the name of the
+#. theme.
+#: src/Admin/Suggestions.php:301
+msgid "It seems that you have installed the %1$s plugin and %1$s theme."
+msgstr "Parece que has instalado el plugin %1$s y el tema %1$s."
+
+#. translators: %s is GTM Kit Add-On.
+#: inc/main.php:107
+msgid "Required by %s"
+msgstr "Requerido por %s"
+
+#: src/Admin/TemplatesOptionsPage.php:59 src/Admin/TemplatesOptionsPage.php:68
+msgid "GTM Templates"
+msgstr "Plantillas de GTM"
+
+#: src/Admin/AdminAPI.php:128
+msgid "Thank you! We have received the data."
+msgstr "¡Gracias! Hemos recibido los datos."
+
+#: src/Admin/AdminAPI.php:126 src/Admin/AdminAPI.php:131
+msgid "The support ticket was not found. Please check that you have entered the correct ticket."
+msgstr "No se encontró el tique de soporte. Verifica que hayas introducido el tique correcto."
+
+#: src/Common/Util.php:190
+msgid "Plugin name and version of all active plugins"
+msgstr "Nombre del plugin y versión de todos los plugins activos"
+
+#: src/Integration/WooCommerce.php:1115
+msgid "GTM Kit data."
+msgstr "Datos de GTM Kit"
+
+#: src/Common/Util.php:175 assets/admin/wizard.js:1
+msgid "No"
+msgstr "No"
+
+#: src/Common/Util.php:175 assets/admin/wizard.js:1
+msgid "Yes"
+msgstr "Sí"
+
+#: src/Common/RestAPIServer.php:33
+msgid "Only authenticated users can access endpoint."
+msgstr "Solo los usuarios identificados pueden acceder al endpoint."
+
+#: src/Admin/AbstractOptionsPage.php:248 src/Admin/SetupWizard.php:215
+msgid "It looks like something is preventing JavaScript from loading on your website. GTM Kit requires JavaScript in order to give you the best possible experience."
+msgstr "Parece que algo impide que JavaScript se cargue en tu sitio web. GTM Kit requiere JavaScript para brindarte la mejor experiencia posible."
+
+#: src/Admin/AbstractOptionsPage.php:245 src/Admin/SetupWizard.php:212
+msgid "Whoops, something's not working."
+msgstr "¡Ups!, algo no funciona."
+
+#: src/Admin/AbstractOptionsPage.php:253 src/Admin/SetupWizard.php:163
+#: src/Admin/SetupWizard.php:220
+msgid "Go back to the Dashboard"
+msgstr "Volver al Escritorio"
+
+#: src/Common/Util.php:195
+msgid "Which GTM Kit settings are active"
+msgstr "Qué ajustes de GTM Kit están activos"
+
+#: src/Common/Util.php:194
+msgid "Anonymized GTM Kit settings:"
+msgstr "Ajustes anonimizados de GTM Kit:"
+
+#: src/Common/Util.php:189
+msgid "Active plugins:"
+msgstr "Plugins activos:"
+
+#: src/Common/Util.php:184
+msgid "Current site language:"
+msgstr "Idioma del sitio actual:"
+
+#: src/Common/Util.php:179
+msgid "Current theme:"
+msgstr "Tema actual:"
+
+#: src/Common/Util.php:174
+msgid "WordPress multisite:"
+msgstr "WordPress multisitio:"
+
+#: src/Common/Util.php:169
+msgid "WordPress version number:"
+msgstr "Versión de WordPress:"
+
+#: src/Common/Util.php:164
+msgid "PHP version number:"
+msgstr "Versión de PHP:"
+
+#: src/Common/Util.php:159
+msgid "Server type:"
+msgstr "Tipo de servidor:"
+
+#. translators: %1$s = opening strong tag, %2$s = closing strong tag.
+#: src/Admin/MetaBox.php:95
+msgid "%1$sNote:%2$s This will only be applied if page type has been activated in the global settings of GTM Kit."
+msgstr "%1$sAviso:%2$s Esto solo se aplicará si el tipo de página se ha activado en la configuración global de GTM Kit."
+
+#: src/Admin/MetaBox.php:88
+msgid "Set page type in datalayer:"
+msgstr "Establecer el tipo de página en la capa de datos:"
+
+#: src/Admin/Integrations.php:40
+msgid "Easy way to sell Digital Products With WordPress"
+msgstr "Una forma sencilla de vender productos digitales con WordPress"
+
+#: src/Integration/EasyDigitalDownloads.php:104
+#: src/Integration/WooCommerce.php:260
+msgid "Payment method not found"
+msgstr "Método de pago no encontrado"
+
+#: src/Admin/Integrations.php:33
+msgid "Just another contact form plugin for WordPress. Simple but flexible"
+msgstr "Otro plugin más de formularios de contacto para WordPress. Sencillo y flexible"
+
+#: src/Admin/MetaBox.php:90 assets/admin/settings.js:1 assets/admin/wizard.js:1
+msgid "Page type"
+msgstr "Tipo de página"
+
+#: src/Admin/Integrations.php:26
+msgid "The #1 open source eCommerce platform built for WordPress"
+msgstr "La plataforma de comercio electrónico de código abierto n° 1 diseñada para WordPress"
+
+#: src/Integration/WooCommerce.php:893 src/Integration/WooCommerce.php:934
+#: src/Integration/WooCommerce.php:967
+msgid "General Product List"
+msgstr "Lista de productos"
+
+#: src/Integration/WooCommerce.php:893
+msgid "Search Results"
+msgstr "Buscar resultados"
+
+#: src/Integration/WooCommerce.php:859
+msgid "Grouped Product"
+msgstr "Productos agrupados"
+
+#: src/Integration/WooCommerce.php:259
+msgid "Shipping tier not found"
+msgstr "No se encontró el método de envío"
+
+#: src/Integration/WooCommerce.php:258
+msgid "Top Rated Products"
+msgstr "Productos mejor valorados"
+
+#: src/Integration/WooCommerce.php:257 src/Integration/WooCommerce.php:1002
+msgid "Product Tag"
+msgstr "Etiquetas de productos"
+
+#: src/Integration/WooCommerce.php:256
+msgid "Products By Attribute"
+msgstr "Productos por atributo"
+
+#: src/Integration/WooCommerce.php:255
+msgid "Products On Sale"
+msgstr "Productos en oferta"
+
+#: src/Integration/WooCommerce.php:254
+msgid "New Products"
+msgstr "Nuevos productos"
+
+#: src/Integration/WooCommerce.php:253 src/Integration/WooCommerce.php:1000
+msgid "Product Category"
+msgstr "Categorías de productos"
+
+#: src/Integration/WooCommerce.php:252
+msgid "Best Sellers"
+msgstr "Más vendidos"
+
+#: src/Integration/WooCommerce.php:251
+msgid "Handpicked Products"
+msgstr "Productos seleccionados"
+
+#: src/Admin/IntegrationsOptionsPage.php:60
+#: src/Admin/IntegrationsOptionsPage.php:69 assets/admin/settings.js:1
+#: assets/admin/settings.js:22
+msgid "Integrations"
+msgstr "Integraciones"
+
+#: src/Admin/GeneralOptionsPage.php:108
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: src/Admin/GeneralOptionsPage.php:99 assets/admin/settings.js:1
+msgid "General"
+msgstr "General"
+
+#: src/Admin/HelpOptionsPage.php:60 src/Admin/HelpOptionsPage.php:69
+#: assets/admin/settings.js:19 assets/admin/settings.js:22
+msgid "Help"
+msgstr "Ayuda"
+
+#: inc/main.php:89 assets/admin/settings.js:22
+msgid "Settings"
+msgstr "Ajustes"
+
+#: inc/main.php:88
+msgid "Go to GTM Kit Settings page"
+msgstr "Ir a la página de ajustes de GTM Kit"
+
+#. Description of the plugin
+#: gtm-kit.php
+msgid "Google Tag Manager implementation focusing on flexibility and pagespeed."
+msgstr "Implementación de Google Tag Manager centrada en la flexibilidad y la velocidad de las páginas."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: gtm-kit.php
+msgid "https://gtmkit.com/"
+msgstr "https://gtmkit.com/"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: gtm-kit.php src/Admin/MetaBox.php:64 assets/admin/wizard.js:1
+msgid "GTM Kit"
+msgstr "GTM Kit"

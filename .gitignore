@@ -1,0 +1,32 @@
+# --- SISTEMA ---
+.DS_Store
+*.log
+error_log
+debug.log
+.env
+
+# --- WORDPRESS CORE & CONFIG ---
+wp-config.php
+htaccess.backup
+.htaccess
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+xmlrpc.php
+
+# --- DIRECTORIOS PESADOS O INSEGUROS ---
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+node_modules/
+
+# --- PLUGINS RUIDOSOS (Falsos Positivos) ---
+# Ignoramos todo wp-content/plugins por defecto para evitar subir código de terceros
+# Si tienes plugins propios, puedes agregarlos con "!" (ej: !wp-content/plugins/mi-plugin)
+wp-content/plugins/
+wp-content/themes/twent*
+
+# --- ESPECÍFICO PARA TU CASO (Archivos que dieron alerta) ---
+wp-content/plugins/gtm-kit/
+wp-content/plugins/all-in-one-wp-migration/
+wp-content/plugins/appointfox_pro/
